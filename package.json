@@ -6,10 +6,15 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
+    "homepage": "https://lyonkabel.github.io/DEPLOYMENT-OF-WEB-APPLICATIONS-assignment-1/",
     "preview": "astro preview",
+    "deploy": "gh-pages -d dist",
     "astro": "astro"
   },
   "dependencies": {
     "astro": "^4.12.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
