@@ -1,61 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Other Jobs in Tech</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #121212;
-            color: #e0e0e0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        header {
-            background-color: #1f1f1f;
-            color: #e0e0e0;
-            padding: 10px 0;
-            text-align: center;
-        }
-        .container {
-            flex: 1;
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #1f1f1f;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        }
-        h1 {
-            color: #4CAF50;
-        }
-        p {
-            line-height: 1.6;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        ul li {
-            margin-bottom: 10px;
-        }
-        footer {
-            background-color: #1f1f1f;
-            color: #e0e0e0;
-            text-align: center;
-            padding: 10px 0;
-        }
-    </style>
-</head>
-<body>
+
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+
+    <head>
+        <link rel="stylesheet" href="../src/style.css/style.css">
+    </head>
+
     <header>
         <h1>Tech Career Insights</h1>
         <button type="button"><a href="index.html">Back</a>
     </header>
 
     <div class="container">
+        <img src="https://images.ctfassets.net/pdf29us7flmy/74ZkZHzOt1ngzaFYXo7roZ/97549b8ed4b04f561df88448f06bc26d/Jobs-with-computers-US.png?w=720&q=100&fm=jpg" alt="API">
         <h1>Other Jobs in Tech</h1>
         <p>The tech industry offers a diverse range of career opportunities beyond traditional roles like software development and web design. Here are some exciting jobs in tech that you might consider exploring:</p>
         
@@ -89,5 +49,5 @@
     <footer>
         <p>&copy; 2024 Tech Career</p>
     </footer>
-</body>
-</html>
+
+</Layout>
